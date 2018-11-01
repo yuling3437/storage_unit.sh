@@ -10,7 +10,7 @@ unit()
 
     res=`echo ${in} | awk '
         {
-                $1=s($1)
+                $1=s($1$2)
         }
 
         function s(tmp)
