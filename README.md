@@ -3,9 +3,9 @@
 Simple storage unit convert for shell, result unit is GB  
 
 pipe:  
-  echo 1024M | unit  
-  echo 10240MiB | unit  
+  echo 1024M | unit_g 
+  echo 10240MiB | unit_g  
   
 function:  
-  unit 1024M  
-  unit 10240MiB  
+  unit_g 1024M  
+  unit_g 10240MiB  
